@@ -23,12 +23,17 @@ int main() {
   float amount;
 
   printf("Enter the Distance travelled :");
-  scanf("%d", &distance);
+  scanf("%d", &distance);//get the distance travelled
 
   if ( distance<=30)
   {
-    Amount = distance * 50;
-    printf(" ")
+    amount = distance * 50; //calculate the amount
+    printf(" Total amount is %.2f", amount);
+  }
+  else if ( distance > 30)
+  {
+    amount = distance * 40;
+    printf("")
   }
 
   
